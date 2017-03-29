@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Fuglavefurinn - Fróðleikur</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<script>
+			document.cookie = 'resolution=' + Math.max(screen.width, screen.height) + '; path=/';
+		</script>
+		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+		<script type='text/javascript' src='autocomplete.js'></script>
+		<script type='text/javascript' src='fuglar.js'></script>
+		<script type='text/javascript' src='js/thor.js'></script>
+		<script type='text/javascript' src='js/toolTips.js'></script>
+		<link href='css/toolTips.css' rel="stylesheet" type="text/css" />	
+		<link href='css/thor.css' rel="stylesheet" type="text/css" />	
+
+
+		<link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />		
+    	<script src="js/ninja-slider.js" type="text/javascript"></script>	
+
+<script type='text/javascript' src='js/jquery.cookie.js'></script>
+<script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='js/jquery.dcjqaccordion.2.7.min.js'></script>
+	<link href="css/graphite.css" rel="stylesheet" type="text/css" />
+<style>
+#tooltip
+{
+    text-align: left;
+}
+</style>	
+	</head>
+	<body>
+
+		<div id="wrapper">
+
+			<header>
+				<a class="logo" href="index.php"></a>
+				<a href="#" id="menu-icon2"></a>
+
+				<nav>
+					<a href="#" id="menu-icon"></a>
+					<ul id="menuLinks">
+						<li>
+							<a href="frodleikurUpphaf.php" >FRÓÐLEIKUR</a>
+						</li>
+						<li>
+							<a href="leikir1.php" >LEIKIR</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="nav2">
+					<a href="#" id="linkur">Flokkar </a>
+					<ul id="submenu">
+						<li>
+							<a href="fuglalisti.php?val=1">Allir</a>
+						</li>
+
+						<li>
+							<a href="fuglalisti.php?val=2">Landfuglar</a>
+						</li>
+						<li>
+							<a href="fuglalisti.php?val=3">Máffuglar</a>
+						</li>
+						<li>
+							<a href="fuglalisti.php?val=4">Sjófuglar</a>
+						</li>
+						<li>
+							<a href="fuglalisti.php?val=5">Spörfuglar</a>
+						</li>
+						<li>
+							<a href="fuglalisti.php?val=6">Vaðfuglar</a>
+						</li>
+						<li>
+							<a href="fuglalisti.php?val=7">Vatnafuglar</a>
+						</li>
+					</ul>
+
+				</div>
+				<div id="headerSearch">
+					<form id='searchform'>
+						<input type="text" id="searchid"  placeholder="Leita að nafni"  onkeyup="autocomplet()"/>
+					</form>
+					<div id="list_id"></div>
+				</div>
+
+			</header>
+			<div id="bordi">
+			<abbr title='<?php echo $uglutexti?>' rel="tooltip" id="lundi"></abbr>
+			<h3>Fróðleikur</h3>
+			</div>
+			
+			
+<article class="infoText2">
+			
+			<nav>
+						<a href="#" id="frodleikurmenu-icon"></a>
+					<aside  class="menuContain" id="submenu_contain">
+							
+						
+					<ul class="accordion"  id="accordion-3">
+					    <li>	<a href="frodleikur.php?id=10"  id="M10"> Þróun fugla </a>
+						  <ul><li> <a href="#" style="display:none"></a></li></ul>
+						</li>
+						
+					    <li  >	<a href="frodleikur.php?id=20" id="M20"> Hvað er fugl?</a>
+						<ul class="su" >         
+							   <li id="M21">
+												<a href="frodleikur.php?id=21" >Fiður og fjaðrir</a>
+											</li>
+											<li id="M22" >
+												<a href="frodleikur.php?id=22">Flug</a>
+											</li>
+											<li id="M23" >
+												<a href="frodleikur.php?id=23">Bein</a>
+											</li>
+											<li id="M24">
+												<a href="frodleikur.php?id=24" >Goggar</a>
+											</li>
+											<li id="M25">
+												<a href="frodleikur.php?id=25" >Fætur</a>
+											</li>
+											<li id='M26'>
+												<a href="frodleikur.php?id=26" >Innri gerð</a>
+											</li>
+											<li id='M28'>
+												<a href="frodleikur.php?id=28" >Sjón</a>
+											</li>
+											<li id='M29'>
+												<a href="frodleikur.php?id=29" >Söngur</a>
+											</li>
+							   
+							   </ul>
+					    </li>
+					<li><a href="frodleikur.php?id=30" id="M30" > Búsvæði</a><ul>
+					   <li id="M31"> <a href="frodleikur.php?id=31">Aðlögun</a></li>
+					 
+					</ul>
+					</li>
+					<li><a href="frodleikur.php?id=40"  id="M40">Lífsferill</a>
+					<ul>
+					    <li id='M41'><a href="frodleikur.php?id=41" >Varp, hreiður og klak</a></li>
+						    			<li id="M42"> <a href="frodleikur.php?id=42">Uppeldi og umönnun</a></li>	
+						    			<li id="M43"> <a href="frodleikur.php?id=43">Pörun</a></li>	
+					    </ul>
+					</li>
+					<li ><a href="frodleikur.php?id=50" id="M50" > Atferli</a>
+					    <ul>
+					       <li id='M51'><a href="frodleikur.php?id=51" >Næringarnám</a></li>
+						    <li id="M52"> <a href="frodleikur.php?id=52">Hópamyndun</a></li>	
+						    <li id="M53"> <a href="frodleikur.php?id=53">Farflug</a></li>	
+						    <li id="M54"> <a href="frodleikur.php?id=54">Ratvísi</a></li>	
+					    </ul>
+					</li>
+					    <li ><a href="frodleikur.php?id=60"  id="M60"> Fuglaskoðun</a><ul>
+					       	<li id='M61'><a href="frodleikur.php?id=61" >Að þekkja fugla</a></li> 
+						      	<li id='M62'><a href="frodleikur.php?id=62" >Fylgst með fuglum</a></li> 
+						      	<li id='M63'><a href="frodleikur.php?id=63" >Búnaður og gögn</a></li> 	    
+					    </ul>
+					</li>
+					   
+					</ul>
+							</aside>
+		</nav>
+		<section id="mainText">
+			</section>
+		</article>	
+				<footer>
+		<div id="namsLogo"><a href="http://www.mms.is"><img src="images/mms-logo.png"></a></div>
+	
+		<div id="um"><a href="um.php">Um vefinn</a></div>
+	</footer>
+
+		</div>
+<script type="text/javascript">
+// create the back to top button
+$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+// change the value with how many pixels scrolled down the button will appear
+var amountScrolled = 200;
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+
+$('a.back-to-top, a.simple-back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
+	</body>
+</html>
