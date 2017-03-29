@@ -1,0 +1,130 @@
+#innri-gerd-container {
+	position: relative;
+	background: url('../innri-gerd-fugla/foreground.png');
+	background-repeat:no-repeat;
+	height: 550px;
+	width: 600px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+}
+
+#innri-gerd-container img{
+	border: none !important;
+	position: absolute;
+}
+
+#innri-gerd-container span{
+	display: none;
+	position: absolute;
+	z-index: 100;
+}
+
+#hjarta {
+	top: 254px;
+	left: 280px;
+	z-index: 10;
+}
+
+#nyru {
+	top: 272px;
+	left: 152px;
+	z-index: 8;
+}
+
+#hryggsula {
+	top: 30px;
+	left: 74px;
+	z-index: 3;
+}
+
+#eggja {
+	top: 277px;
+	left: 148px;
+	z-index: 10;
+}
+
+#lungu {
+	top: 59px;
+	left: 223px;
+	z-index: 11;
+}
+
+#melting {
+	top: 42px;
+	left: 150px;
+	z-index: 2;
+}
+
+#lifur {
+	top: 272px;
+	left: 221px;
+	z-index: 10;
+}
+
+#gallbladra {
+	top: 273px;
+	left: 215px;
+	z-index: 10;
+}
+
+#heili {
+	top: 10px;
+	left: 329px;
+	z-index:10;
+}
+
+#auga {
+	top: 18px;
+	left: 363px;
+	z-index:10;
+}
+
+#nyru {
+	left: 150px;
+	top: 270px;
+}
+
+#nyru-label {
+	left: 390px;
+	top: 100px;
+}
+
+#hjarta-label {
+	left: 0px;
+	top: 205px;
+}
+
+#hryggsula-label {
+	left: 105px;
+	top: 185px;
+}
+
+#eggja-label {
+	left: 0px;
+	top: 80px;
+}
+
+#lungu-label {
+	left: 500px;
+	top: 130px;
+}
+
+#melting-label {
+	left: 500px;
+	top: 415px;
+}
+
+#lifur-label {
+	left: 365px;
+	top: 355px;
+}
+
+#gallbladra-label {
+	left: 400px;
+	top: 245px;
+}
+
+#heili-label {
+	left: 200px;
+	top: 0px;
+}

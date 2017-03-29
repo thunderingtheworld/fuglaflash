@@ -4,6 +4,9 @@
 # But not these files...
 !.gitignore
 !innri-gerd.html
+!js/innri-gerd.js
+!css/innri-gerd.css
+!innri-gerd-fugla/*
 # etc...
 
 # ...even if they are in subdirectories
